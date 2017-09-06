@@ -13,6 +13,14 @@
 		A6594A0C1F5E676E00F82324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6594A0A1F5E676E00F82324 /* Main.storyboard */; };
 		A6594A0E1F5E676E00F82324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6594A0D1F5E676E00F82324 /* Assets.xcassets */; };
 		A6594A111F5E676E00F82324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6594A0F1F5E676E00F82324 /* LaunchScreen.storyboard */; };
+		A6594A1B1F5E67BA00F82324 /* BXHKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6594A1A1F5E67BA00F82324 /* BXHKeyBoardManager.m */; };
+		A6594A211F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = A6594A201F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.m */; };
+		A6594A271F5E924900F82324 /* BXHInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6594A261F5E924900F82324 /* BXHInputAccessoryView.m */; };
+		A6594A291F5E9A4400F82324 /* BXHKeyBoardBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6594A281F5E9A4400F82324 /* BXHKeyBoardBundle.bundle */; };
+		A6594A2C1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A6594A2B1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.m */; };
+		A6594A2F1F5EA9CC00F82324 /* UIView+BXHKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A6594A2E1F5EA9CC00F82324 /* UIView+BXHKeyBoard.m */; };
+		A668D26B1F5F8C960064C0E7 /* ViewTextFiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A668D26A1F5F8C960064C0E7 /* ViewTextFiledViewController.m */; };
+		A668D26E1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A668D26D1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,21 @@
 		A6594A0D1F5E676E00F82324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6594A101F5E676E00F82324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6594A121F5E676E00F82324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6594A191F5E67BA00F82324 /* BXHKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHKeyBoardManager.h; sourceTree = "<group>"; };
+		A6594A1A1F5E67BA00F82324 /* BXHKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHKeyBoardManager.m; sourceTree = "<group>"; };
+		A6594A1F1F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+BXHKeyBoardResponder.h"; sourceTree = "<group>"; };
+		A6594A201F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+BXHKeyBoardResponder.m"; sourceTree = "<group>"; };
+		A6594A251F5E924900F82324 /* BXHInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHInputAccessoryView.h; sourceTree = "<group>"; };
+		A6594A261F5E924900F82324 /* BXHInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHInputAccessoryView.m; sourceTree = "<group>"; };
+		A6594A281F5E9A4400F82324 /* BXHKeyBoardBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BXHKeyBoardBundle.bundle; sourceTree = "<group>"; };
+		A6594A2A1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BXHKeyBoard.h"; sourceTree = "<group>"; };
+		A6594A2B1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BXHKeyBoard.m"; sourceTree = "<group>"; };
+		A6594A2D1F5EA9CC00F82324 /* UIView+BXHKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BXHKeyBoard.h"; sourceTree = "<group>"; };
+		A6594A2E1F5EA9CC00F82324 /* UIView+BXHKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BXHKeyBoard.m"; sourceTree = "<group>"; };
+		A668D2691F5F8C960064C0E7 /* ViewTextFiledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTextFiledViewController.h; sourceTree = "<group>"; };
+		A668D26A1F5F8C960064C0E7 /* ViewTextFiledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTextFiledViewController.m; sourceTree = "<group>"; };
+		A668D26C1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewTextFiledViewController.h; sourceTree = "<group>"; };
+		A668D26D1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTextFiledViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 		A6594A001F5E676E00F82324 /* BXHKeyBoardManager */ = {
 			isa = PBXGroup;
 			children = (
+				A6594A181F5E678E00F82324 /* BXHKeyBoardManager */,
 				A6594A041F5E676E00F82324 /* AppDelegate.h */,
 				A6594A051F5E676E00F82324 /* AppDelegate.m */,
 				A6594A071F5E676E00F82324 /* ViewController.h */,
@@ -67,6 +91,10 @@
 				A6594A0F1F5E676E00F82324 /* LaunchScreen.storyboard */,
 				A6594A121F5E676E00F82324 /* Info.plist */,
 				A6594A011F5E676E00F82324 /* Supporting Files */,
+				A668D2691F5F8C960064C0E7 /* ViewTextFiledViewController.h */,
+				A668D26A1F5F8C960064C0E7 /* ViewTextFiledViewController.m */,
+				A668D26C1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.h */,
+				A668D26D1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.m */,
 			);
 			path = BXHKeyBoardManager;
 			sourceTree = "<group>";
@@ -77,6 +105,24 @@
 				A6594A021F5E676E00F82324 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6594A181F5E678E00F82324 /* BXHKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				A6594A191F5E67BA00F82324 /* BXHKeyBoardManager.h */,
+				A6594A1A1F5E67BA00F82324 /* BXHKeyBoardManager.m */,
+				A6594A1F1F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.h */,
+				A6594A201F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.m */,
+				A6594A251F5E924900F82324 /* BXHInputAccessoryView.h */,
+				A6594A261F5E924900F82324 /* BXHInputAccessoryView.m */,
+				A6594A281F5E9A4400F82324 /* BXHKeyBoardBundle.bundle */,
+				A6594A2A1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.h */,
+				A6594A2B1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.m */,
+				A6594A2D1F5EA9CC00F82324 /* UIView+BXHKeyBoard.h */,
+				A6594A2E1F5EA9CC00F82324 /* UIView+BXHKeyBoard.m */,
+			);
+			path = BXHKeyBoardManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6594A111F5E676E00F82324 /* LaunchScreen.storyboard in Resources */,
+				A6594A291F5E9A4400F82324 /* BXHKeyBoardBundle.bundle in Resources */,
 				A6594A0E1F5E676E00F82324 /* Assets.xcassets in Resources */,
 				A6594A0C1F5E676E00F82324 /* Main.storyboard in Resources */,
 			);
@@ -151,7 +198,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6594A091F5E676E00F82324 /* ViewController.m in Sources */,
+				A6594A1B1F5E67BA00F82324 /* BXHKeyBoardManager.m in Sources */,
+				A668D26E1F5F8CD60064C0E7 /* ScrollViewTextFiledViewController.m in Sources */,
+				A6594A271F5E924900F82324 /* BXHInputAccessoryView.m in Sources */,
+				A6594A2C1F5EA9B200F82324 /* UIScrollView+BXHKeyBoard.m in Sources */,
 				A6594A061F5E676E00F82324 /* AppDelegate.m in Sources */,
+				A6594A211F5E7F8100F82324 /* UIResponder+BXHKeyBoardResponder.m in Sources */,
+				A6594A2F1F5EA9CC00F82324 /* UIView+BXHKeyBoard.m in Sources */,
+				A668D26B1F5F8C960064C0E7 /* ViewTextFiledViewController.m in Sources */,
 				A6594A031F5E676E00F82324 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +363,7 @@
 				A6594A171F5E676E00F82324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
